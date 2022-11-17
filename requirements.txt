@@ -1,4 +1,0 @@
-pandas
-io
-streamlit == 1.14.1
-xlsxwriter
