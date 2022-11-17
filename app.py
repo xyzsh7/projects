@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import io
-import XlsxWriter
 
 st.title('Data Anonymization Tool')
 st.subheader('I. Upload Files')
