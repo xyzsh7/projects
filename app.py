@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import io
-import xlsxwriter
 
 st.title('Data Anonymization Tool')
 st.subheader('I. Upload Files')
@@ -109,7 +108,7 @@ else:
 
 
 st.subheader('II. Combine & Download')
-with pd.ExcelWriter(buffer, engine='xlsxwriter') as writer:
+with pd.ExcelWriter(buffer, engine='openpyxl') as writer:
     exphis.to_excel(writer, sheet_name='ExperimentHistory', index=False)
     opehis.to_excel(writer, sheet_name='OperationHistory', index=False)
     acchis.to_excel(writer, sheet_name='AccessoryHistory', index=False)
