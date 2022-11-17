@@ -1,7 +1,8 @@
+pip install xlsxwriter
 import streamlit as st
 import pandas as pd
 import io
-from xlsxwriter import Workbook
+import xlsxwriter
 
 st.title('Data Anonymization Tool')
 st.subheader('I. Upload Files')
