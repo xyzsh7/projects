@@ -1,4 +1,4 @@
-pip install xlsxwriter
+sudo pip install xlsxwriter
 import streamlit as st
 import pandas as pd
 import io
