@@ -108,7 +108,7 @@ else:
 
 
 st.subheader('II. Combine & Download')
-with pd.ExcelWriter(buffer, engine='openpyxl') as writer:
+with pd.ExcelWriter(buffer) as writer:
     exphis.to_excel(writer, sheet_name='ExperimentHistory', index=False)
     opehis.to_excel(writer, sheet_name='OperationHistory', index=False)
     acchis.to_excel(writer, sheet_name='AccessoryHistory', index=False)
