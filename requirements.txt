@@ -2,4 +2,4 @@ streamlit == 1.14.1
 pandas
 os
 io
-xlsxwriter = 3.0.3
+xlsxwriter == 3.0.3
