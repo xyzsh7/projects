@@ -1,3 +1,6 @@
 ## Metrics Data Analysis
 
-This script automate the process of appending all the datasets containing specific strings and aggregate data among columns, then generate outputs.
+#### Thie Analysis Script:
+- **Automate** the process of appending all the datasets containing specific strings
+- **Aggregate** data among columns
+- **Generate** outputs
