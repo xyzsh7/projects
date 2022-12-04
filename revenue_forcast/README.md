@@ -7,7 +7,7 @@ This Data analysis worked with **3 datasets**.
 <img src="https://user-images.githubusercontent.com/90363752/205504933-c35e6fb9-4a1c-4942-abcd-71d2888cefb9.png" width="800" height="">
 
 ------
-The Tableau Dashboard:
+#### The **Tableau** Dashboard:
 
 <https://public.tableau.com/views/RevenueAnalysis_16612808748220/Rev_forc?:language=en-US&:display_count=n&:origin=viz_share_link>
 
