@@ -1,6 +1,6 @@
 ## Revenue Foracast Data Analysis
 
-This Data analysis worked with **3 datasets**.
+- This Data analysis worked with **3 datasets**. 
 
 ------
 #### The Data analysis Logic Map is shown as below:
